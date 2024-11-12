@@ -14,39 +14,62 @@
     <meta name="author" content="Spencer Johnson">
     <meta property="og:image" content="assets\logo.png" />
     <link rel="icon" type="image/x-icon" href="assets\favicon.ico">
+    <script src="script.js"></script>
 </head>
-
-<body>
-    <div class="header">
-        <h1 style = "margin-left: 10px;">Tributary Jewelry Services</h1>
-        <div>
-            <ul>
-                <li>Who We Are</li>
-                <li>Our Services</li>
-                <li>Contact Us</li>
+<body onload=hideAllGalleryImages()>
+     <div class="header">
+        <div class="headerBox">
+            <img src='assets/logo.png' class="logo" name="Company Logo">
+        </div>
+        <div class="headerBox">
+            <h1>Tributary Jewelry Services</h1>
+        </div>
+        <div class="navBar">
+            <ul style = "list-style: none;">
+                <li onclick = scrollToAboutUs()>About Us</li>
+                <li onclick = scrollToGallery()>Gallery</li>
+                <li onclick = scrollToContact()>Contact</li>
+                <li>Shop (Coming soon!)</li>
             </ul>
         </div>
     </div>
-    <div class="logo_container">
-        <img src='assets/logo.png' class="logo center" name="Company Logo">
-    </div>
-    <div class="img_banner"><img src='assets/banner.jpg' class="banner_image" name="Ring Image"></div>
-    <div class="main_container">
-                <div class="text_block light round">
-                    <h1 class="blue">Our Mission:</h1>
-                    <h2 class="blue">Providing marketable services for your business to your customers</h2>
-                    <h3 class="blue">Our in-house craftsmen leverage years of jewelry cleaning and repair expertise so you get your needs met on time, every time.</h3>
-                </div>
-                <img src='assets/saph.jpg'class="graphic" name="Ring Image">
-    </div>
-    <div class="services_container">
-        <img src='assets/ony.jpg' class="graphic" name="Ring Image">
-        <div class="text_block">
-            <h1 class="blue">Our Services:</h1>
-            <h2 class="blue">We can like clean and repair stuff</h2>
-            <h3 class="blue">Our in-house craftsmen leverage years of jewelry cleaning and repair expertise so you get your needs met on time, every time.</h3>
+    <div id="AboutUs" class="SectionContainer">
+        <img src='assets/mainImage.jpg' class="sectionImage" name="Main Image" alt = "Picture of owner">
+        <div class="sectionBlock">
+            <span class="blockText">
+                My name is Matt Mohr, and I am the proud founder of TJS. I started working with jewelry because it allows me to 
+                join my passion for fine and meticulous work with my delight in beautiful, quality things.
+            </span>
+            <span class="blockText">
+                Tributary exists to glorify God by marrying beauty and quality as craftsmen who specialize in jewelry repair, cleaning, and sales.
+            </span>
+            <span class="blockText">
+                Please feel free to view my gallery below, or contact me for inquiries.
+            </span>
         </div>
-        <img src='assets/pear.jpg' class="graphic" name="Necklace Image">
+    </div>
+    <div id="Gallery" class="SectionContainer gallery">
+        <img src='assets/leftArrow.jpg' class="advanceButton" name="Left Arrow" alt = "Left Arrow" onclick=advanceGalleryBackward()>
+        <div id="GalleryContainer">
+            <img src="assets/turq.jpg" class="GallerySlide">
+            <img src="assets/saph.jpg" class="GallerySlide">
+            <img src="assets/pear.jpg" class="GallerySlide">
+            <img src="assets/ony.jpg" class="GallerySlide">
+            <img src="assets/barleyring.jpg" class="GallerySlide">
+            <img src="assets/doublelink.jpg " class="GallerySlide">
+            <img src="assets/hammeredearrings.jpg" class="GallerySlide">
+            <img src="assets/leafdiamond.jpg" class="GallerySlide">
+            <img src="assets/otherleafdiamond.jpg" class="GallerySlide">
+            <img src="assets/threerings.jpg" class="GallerySlide">
+            <img src="assets/trebel.jpg" class="GallerySlide">
+            <img src="assets/tworings.jpg" class="GallerySlide">
+        </div>
+        <img src='assets/rightArrow.jpg' class="advanceButton" name="Right Arrow" alt = "Right Arrow" onclick=advanceGalleryForward()>      
+    </div>
+    <div id="Contact" class="SectionContainer Footer">
+        <div class="footerText">Let's get in touch!</div>
+        <a href="https://www.facebook.com/profile.php?id=100083359686714" target="_blank"><img src="assets/fb.jpg" alt="Facebook Logo"></a>
+        <div class="footerText">tributaryjewelryservices@gmail.com</div>
     </div>
 </body>
 
