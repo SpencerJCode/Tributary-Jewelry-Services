@@ -28,13 +28,13 @@
     }
 
     .navBar {
-        font-size: 18px;
+        font-size: 14px;
         color: rgb(204, 178, 111);
-        width: 350px;
+        width: 400px;
     }
 
     h1 {
-        font-size: 44px;
+        font-size: 40px;
         color: rgb(204, 178, 111);
     }
 
@@ -61,7 +61,7 @@
     }
 
     .sectionImage {
-        width: 320px;
+        width: 140px;
     }
 
     .sectionBlock {
