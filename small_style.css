@@ -83,7 +83,7 @@
     }
 
     .advanceButton {
-        width: 90px;
+        width: 40px;
     }
 
     .advanceButton:hover {
@@ -97,8 +97,8 @@
     }
 
     .GallerySlide {
-        max-width: 380;
-        max-height: 500;
+        max-width: 380px;
+        max-height: 500px;
         overflow: auto;
         border-radius: 4px;
     }
@@ -112,7 +112,7 @@
     }
 
     .footerText {
-        font-size: 22px;
+        font-size: 20px;
         margin: 1em;
         color: rgb(204, 178, 111);
     }
