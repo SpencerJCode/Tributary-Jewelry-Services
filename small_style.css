@@ -1,0 +1,118 @@
+* {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    }
+    
+    .header {
+        width: 100vw;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(100, 124, 145);
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+        margin: 0 auto;
+        border-radius: 50%;
+    }
+
+    .navBar {
+        font-size: 24px;
+        color: rgb(204, 178, 111);
+        width: 350px;
+    }
+
+    h1 {
+        font-size: 70px;
+        color: rgb(204, 178, 111);
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    li:hover {
+        cursor: pointer;
+        color: blanchedalmond;
+    }
+    
+    .SectionContainer {
+        margin: 0 auto;
+        width: 1200px;
+        height: 500px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sectionImage {
+        width: 320px;
+    }
+
+    .sectionBlock {
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blockText {
+        font-size: 30px;
+        margin: 1em;
+        color: rgb(100, 124, 145);
+    }
+
+    .gallery {
+        box-shadow: 0px 0px 10px rgb(204, 178, 111);
+        border-radius: 4px;
+        height: 800px;
+    }
+
+    .advanceButton {
+        width: 90px;
+    }
+
+    .advanceButton:hover {
+        cursor: pointer;
+    }
+
+    .GalleryContainer {
+        max-width: 500px;
+        max-height: 700px;
+        overflow: auto;
+    }
+
+    .GallerySlide {
+        max-width: 700px;
+        max-height: 700px;
+        overflow: auto;
+        border-radius: 4px;
+    }
+
+    .Footer {
+        height: 300px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: rgb(100, 124, 145);
+    }
+
+    .footerText {
+        font-size: 30px;
+        margin: 1em;
+        color: rgb(204, 178, 111);
+    }
