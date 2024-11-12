@@ -51,8 +51,8 @@
     
     .SectionContainer {
         margin: 0 auto;
-        width: 1200px;
-        height: 500px;
+        width: 480px;
+        height: 350px;
         margin-top: 20px;
         display: flex;
         flex-direction: row;
