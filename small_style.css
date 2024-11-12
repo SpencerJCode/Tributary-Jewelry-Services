@@ -30,7 +30,7 @@
     .navBar {
         font-size: 14px;
         color: rgb(204, 178, 111);
-        width: 400px;
+        width: 350px;
     }
 
     h1 {
@@ -65,7 +65,7 @@
     }
 
     .sectionBlock {
-        width: 475px;
+        width: 330px;
         display: flex;
         flex-direction: column;
     }
@@ -92,13 +92,13 @@
 
     .GalleryContainer {
         max-width: 380px;
-        max-height: 500px;
+        max-height: 350px;
         overflow: auto;
     }
 
     .GallerySlide {
         max-width: 380px;
-        max-height: 500px;
+        max-height: 350px;
         overflow: auto;
         border-radius: 4px;
     }
