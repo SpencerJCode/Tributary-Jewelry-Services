@@ -33,9 +33,3 @@ function advanceGalleryForward(){
     }
     slides[galleryIndex].style.display = "inline";
 }
-function hideAllGalleryImages(){
-    let slides = document.getElementsByClassName("GallerySlide");
-    for (i = 1; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-    }
-}
